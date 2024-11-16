@@ -1,3 +1,32 @@
 .contact {
-  height: 30rem;
+  height: 50rem;
+  padding: 6rem 0;
+
+  .container {
+    max-width: 111rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact__content {
+    max-width: 44.4rem;
+
+    & > p {
+      margin: 2.4rem 0 4rem 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    .contact__content {
+      max-width: 54rem;
+    }
+
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }

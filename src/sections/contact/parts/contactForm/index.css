@@ -1,0 +1,28 @@
+.contactForm {
+  form {
+    display: flex;
+    flex-direction: row;
+    max-width: 54rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.2rem;
+  }
+
+  .contactForm__submit {
+    width: 16rem;
+    height: 5rem;
+    border: 1.5px solid #ed4c5c;
+    border-radius: 6px;
+    background-color: #ed4c5c;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.68rem;
+    cursor: pointer;
+  }
+
+  .formInput {
+    margin: 0;
+  }
+}
